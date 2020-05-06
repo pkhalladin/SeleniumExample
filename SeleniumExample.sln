@@ -3,18 +3,18 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumExample", "SeleniumExample\SeleniumExample.csproj", "{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SeleniumExample", "SeleniumExample\SeleniumExample.csproj", "{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Chrome (Headless)|Any CPU = Chrome (Headless)|Any CPU
+		Chrome|Any CPU = Chrome|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Chrome (Headless)|Any CPU.ActiveCfg = Chrome (Headless)|Any CPU
+		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Chrome (Headless)|Any CPU.Build.0 = Chrome (Headless)|Any CPU
+		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Chrome|Any CPU.ActiveCfg = Chrome|Any CPU
+		{BC36CAEB-9573-4112-8E3B-0E3EB24773AB}.Chrome|Any CPU.Build.0 = Chrome|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

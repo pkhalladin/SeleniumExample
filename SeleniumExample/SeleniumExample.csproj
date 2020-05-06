@@ -4,6 +4,16 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
 
     <IsPackable>false</IsPackable>
+
+    <Configurations>Debug;Release;Chrome;Chrome (Headless)</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Chrome|AnyCPU'">
+    <DefineConstants>TRACE;CHROME</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Chrome (Headless)|AnyCPU'">
+    <DefineConstants>TRACE;CHROME;HEADLESS</DefineConstants>
   </PropertyGroup>
 
   <ItemGroup>

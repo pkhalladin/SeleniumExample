@@ -41,7 +41,7 @@ namespace SeleniumExample
             page = new HomePage(driver);
             page.SearchTextBox.SendKeys("aaa" + Keys.Enter);
 
-            Assert.IsTrue(page.HasElement(By.Id("result-stats")));
+            Assert.IsTrue(page.HasElement(By.Id("result-statx")));
         }
     }
 }

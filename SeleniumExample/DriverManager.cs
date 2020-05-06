@@ -1,7 +1,6 @@
 ﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using System;
-using System.IO;
 
 namespace SeleniumExample
 {
@@ -10,10 +9,15 @@ namespace SeleniumExample
         public static IWebDriver Create()
         {
             IWebDriver driver;
-            ChromeOptions options = new ChromeOptions();
 
-            //options.AddArguments("headless");
+#if CHROME
+            ChromeOptions options = new ChromeOptions();
+#if HEADLESS
+            options.AddArgument("headless");
+#endif // HEADLESS
             driver = new ChromeDriver(options);
+#endif // CHROME
+
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5.0);
 
             return driver;
